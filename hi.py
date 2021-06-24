@@ -1,6 +1,8 @@
-# 輸入並輸出名字
-name = input('input your name: ')
-if name == 'VIP':
+# 輸入並輸出
+age = input('input your age: ')
+age = int(age)
+if age >= 20:
 	print('Welcome VIP')
 else :
-	print('Your name is: ' + name)
+	age = str(age)
+	print('Your age is: ' + age)
